@@ -3,7 +3,8 @@ body {
     margin: 20px;
   }
   
-  ol, ul {
+  ol,
+  ul {
     padding-left: 30px;
   }
   
@@ -32,6 +33,10 @@ body {
     width: 34px;
   }
   
+  .square--winning {
+    background-color: yellow;
+  }
+  
   .square:focus {
     outline: none;
   }
@@ -48,4 +53,3 @@ body {
   .game-info {
     margin-left: 20px;
   }
-  
